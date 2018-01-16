@@ -1,3 +1,13 @@
 body{
 	background: red;
 }
+li{
+	border: 2px solid purple;
+}
+
+#special{
+	background-color: yellow;
+}
+.completed {
+	text-decoration: line-through;
+}
