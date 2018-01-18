@@ -8,4 +8,7 @@ p{
 	margin-left: 1.46%;
 	font-size: 23px;
 	font-weight: 800;
+	border-bottom:2px solid #f1f1f1;
+	width: 30%;
+	padding-bottom: 20px;
 }
