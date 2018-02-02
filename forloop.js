@@ -28,4 +28,11 @@ for(var i = 300; i< 334; i+=1)
 	}	
 }
 
-//numbers divisible by 5 and 3 
+//numbers divisible by 5 and 3 between 5 and 50
+for(var i = 5; i<= 50; i++)
+{
+	if(i % 5 === 0 && i % 3 === 0)
+	{
+	console.log(i)
+	}
+}
