@@ -16,3 +16,16 @@ for(var i = 10; i< 41; i+=1)
 	console.log(i)
 	}	
 }
+
+// odd numbers between 300 and 333
+
+for(var i = 300; i< 334; i+=1)
+{
+	if(i% 2 !== 0)
+	{
+
+	console.log(i)
+	}	
+}
+
+//numbers divisible by 5 and 3 
