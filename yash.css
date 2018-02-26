@@ -22,6 +22,7 @@ header h1{
 header nav{
 	display: flex;
 	justify-content: flex-end;
+	align-self: center;
 }
 header p{
 	padding: 0 20px;
@@ -64,4 +65,9 @@ p{
 
 .bt-group .row .btn {
 	margin: 15px;
+
+
+}
+.step{
+	margin: 80px;
 }
