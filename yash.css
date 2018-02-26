@@ -60,3 +60,8 @@ p{
 .panel-body{
 	color: black;
 }
+
+
+.bt-group .row .btn {
+	margin: 15px;
+}
