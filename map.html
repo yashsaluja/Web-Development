@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		<title>E-commerce</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"/>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="yash.css"/>
+	</title>
+</head>
+<body>
+<header class="container">
+		<h1 align="right">Shopper's Site</h1>
+			<div class="bt-group">
+				<div class="row">
+					<a class="btn btn-default" href="#"><strong>Newest</strong></a>
+				<a class=" btn btn-default" href="#"><strong>Catalogue</strong></a>
+				<a class="btn btn-default" href="contact.html"> <strong>Contact</strong></a>
+				<a class="btn btn-default" href="#"><strong>Add to Cart</strong></a>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+<div class="container">
+<h3>Contact</h3>
+<a href="mannuarora104@gmail.com"><strong>Email us</strong></a>
+<div id="map" style="height: 400px; width: 100%;"></div>
+<script>
+  function initMap() {
+    var uluru = {lat: 30.415828, lng: 77.966321};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 12,
+      center: uluru
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+    });
+  }
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2N4RBE3Kvy4CoZE1b6Q7bZoYJWatZ2tI&amp;callback=initMap">
+</script>
+</div>
+<footer class="container">
+	<div class="row">
+		<p class="col-sm-4">&copy;2018</p>
+		<ul class="col-sm-8"> 
+			<li class="col-sm-1">
+				<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg">/
+			</li>
+			<li class="col-sm-1">
+				<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg"/>
+			</li>
+			<li class="col-sm-1">
+				<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"/>
+			</li>
+			<li class="col-sm-1">
+				<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg"/>
+			</li>
+</ul>
+	</div>
+</footer>
+</body>
+</html>
