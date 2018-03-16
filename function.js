@@ -18,3 +18,11 @@ function factorial(num)
 	return result;
 	
 	}
+
+//kebabTosnake
+
+function kebabToSnake(str)
+{
+	var newstr	=str.replace(/-/g , "_");
+	return newstr;
+}
