@@ -22,7 +22,7 @@ header h1{
 header nav{
 	display: flex;
 	justify-content: flex-end;
-	align-self: center;
+	
 }
 header p{
 	padding: 0 20px;
